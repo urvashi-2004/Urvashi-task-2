@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    background-color:indigo;
+}
+ul{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 13px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.ul li a .bi{
+    color: white;   
+}
+.weblogo{
+    position: absolute;
+    top: 8%;
+    left: 4%;
+    color: indigo;
+}
+.header ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 2px;
+    min-height: 40px;
+    margin-right: 10x;
+    font-size: 13px;
+}
+.header ul li a{
+  
+    text-decoration: none;
+    color: black;
+    padding: 2px 8px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    font-size: 15px;
+}   
+.header ul li a .bi{
+    color: black;
+}
+.sell{
+    background-color: indigo;
+    width: 200px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    left: 80%;
+    top: 7.5%;
+  text-align: center;
+}
+.sell .h4{
+    color: white;    
+}
+.boat{
+    color: white;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search{
+    color: white;
+    position: absolute;
+    left: 29%;
+    top: 30%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.srch{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 600px;
+    height: 40px;
+    background-color: white; 
+    border: none;
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 25px;
+}
+.sign{
+    background-color: indigo;
+    width: 47px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    left: 68%;
+    top: 32.6%;
+  
+}
+.sign .bi{
+    color: white;
+}
+.city{
+    text-align: center;
+    color: black;
+}
+.city1{
+    text-align: center;
+    color: gray;   
+}
+table{
+    background-color: white;
+    width: 100%;
+}
+.empty_div{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+.city{
+    text-align: center;
+    color: black;
+    background-color:mintcream;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.city1{
+    text-align: center;
+    color: darkgray;
+    background-color:mintcream;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.shipes{
+    background-color: mintcream;
+}
+table{
+    background-color: mintcream;
+    width: 100%;
+}
+
+.your_boat, .my_boat{
+    background-color: mintcream;
+}
+.your_boat{
+    background-color: mintcream;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.your_boat1{
+    background-color: mintcream;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.your_boat2{
+    background-color: mintcream;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.my_boat{
+    background-color: mintcream;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.my_boat1{
+    background-color: mintcream;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.my_boat2{
+    background-color: mintcream;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ads{
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.adss{
+    text-align: center;
+    color:  darkgray;
+    background-color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.us_ship{
+     background-color: white;
+}
+.sign{
+    background-color: indigo;
+    width: 25px;
+    height: 35px;
+    color: white;
+    position: absolute;
+    left: 19%;
+    top: 95%;
+    padding-left: 10px;
+    border-radius: 50px;
+    }
+.sign .bi{
+    color: white;
+}
+.sign1{
+    background-color: indigo;
+    width: 25px;
+    height: 35px;
+    color: white;
+    position: absolute;
+    left: 40.5%;
+    top: 95%;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+.sign1 .bi{
+        color: white;
+}
+.sign2{
+    background-color: indigo;
+    width: 25px;
+    height: 35px;
+    color: white;
+    position: absolute;
+    left: 62.3%;
+    top: 95%;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+.sign2 .bi{
+    color: white;
+}
+.sell{
+    background-color: indigo;
+    width: 150px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    left: 28.3%;
+    top: 95.7%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sell .h4{
+    color: white;    
+}
+.sell1{
+    background-color: indigo;
+    width: 160px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    left: 49.3%;
+    top: 95.7%;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sell1 .h4{
+    color: white;    
+}
+.sell2{
+    background-color: indigo;
+    width: 150px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    left: 71.7%;
+    top: 95.7%;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sell2 .h4{
+    color: white;    
+}
+.row{
+    display: flex;  
+}
+.card{
+    width: 18%;
+    height: 10%;
+    background-color:mintcream;
+    border: 1px solid green;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    border-color: gainsboro;
+    color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-header{
+    padding: 5px 3px;
+    background: white;
+    border-color: gainsboro;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: gainsboro;
+}
+.card-body{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
