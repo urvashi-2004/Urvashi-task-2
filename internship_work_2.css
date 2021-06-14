@@ -103,11 +103,20 @@ ul li a{
 .signs .bi{
     color: white;
 }
-.city{
+.cities{
     text-align: center;
-    color: black;
+    color: black;  
 }
-.city1{
+.cities::after{
+    content: '';
+    height: 2px;
+    width: 10%;
+    background-color: gray;
+    position: absolute;
+    left: 45%;
+    bottom: 45.5%;
+}
+.cities1{
     text-align: center;
     color: gray;   
 }
@@ -125,6 +134,15 @@ table{
     color: black;
     background-color:mintcream;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.city::after{
+    content: '';
+    height: 2px;
+    width: 10%;
+    background-color: gray;
+    position: absolute;
+    left: 45%;
+    top: 138%;
 }
 .city1{
     text-align: center;
