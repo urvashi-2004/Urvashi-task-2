@@ -489,3 +489,81 @@ table {
     background-color: mintcream;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
+  .race {
+    background-color: white;
+  }
+  .write1{
+  width: 19.6%;
+  height: 9%;
+  left: 19.3%;
+  top: 376.3%;
+  position: absolute;
+  background-color: mintcream;
+  border: 1px solid green;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  border-color: gainsboro;
+  color: darkgray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .writes1{
+    color: black;
+  }
+  .man1{
+    color: black;
+    background-color: transparent;
+    left: 85%;
+  bottom: 75%;
+    position: absolute;
+    font-size: 35px;
+  }
+  .write2{
+    width: 19.6%;
+    height: 9%;
+    left: 40.2%;
+    top: 376.3%;
+    position: absolute;
+    background-color: mintcream;
+    border: 1px solid green;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    border-color: gainsboro;
+    color: darkgray;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    .writes2{
+      color: black;
+    }
+    .man2 {
+      color: black;
+      background-color: transparent;
+      left: 115%;
+    bottom: 75%;
+      position: absolute;
+      font-size: 35px;
+    }
+    .write3{
+      width: 19.6%;
+      height: 9%;
+      left: 61%;
+      top: 376.3%;
+      position: absolute;
+      background-color: mintcream;
+      border: 1px solid green;
+      margin-bottom: 50px;
+      transition: 0.3s;
+      border-color: gainsboro;
+      color: darkgray;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .writes3{
+        color: black;
+      }
+      .man3 {
+        color: black;
+        background-color: transparent;
+        left: 135%;
+        bottom: 75%;
+        position: absolute;
+        font-size: 35px;
+      }
