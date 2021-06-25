@@ -274,7 +274,7 @@ table{
 .row{
     display: flex;  
 }
-.card{
+/* .card{
     width: 18%;
     height: 10%;
     background-color:mintcream;
@@ -295,4 +295,4 @@ table{
 }
 .card-body{
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+} */
