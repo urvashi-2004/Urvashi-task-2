@@ -3,15 +3,12 @@
   padding: 0px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-nav {
-  width: 100%;
-  background-color: indigo;
+html,body{
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-ul {
-  width: 85%;
-
-  margin: 0 auto;
-  padding: 8px;
+.bg-nav {
+  background-color: indigo;
 }
 ul li {
   list-style: none;
@@ -26,11 +23,8 @@ ul li a {
 .ul li a .bi {
   color: white;
 }
-.color {
+.txt-lg {
   font-size: 40px;
-  position: absolute;
-  top: 6%;
-  left: 4%;
 }
 .header ul {
   min-height: 25px;
@@ -48,12 +42,7 @@ ul li a {
 }
 .sellS {
   background-color: indigo;
-  width: 200px;
-  height: 35px;
   color: white;
-  position: absolute;
-  left: 83%;
-  top: 7.5%;
   text-align: center;
 }
 .boat {
@@ -94,13 +83,11 @@ ul li a {
 .signs .bi {
   color: white;
 }
-.cities {position: absolute;
-  top: 48.5%;
-  left: 40%;
+.cities {
   color: black;
   font-size: 25PX;
 }
-.cities::after {
+/* .cities::after {
   content: "";
   height: 2px;
   width: 35%;
@@ -108,28 +95,20 @@ ul li a {
   position: absolute;
   left: 35%;
   top: 105%;
-}
+} */
 .lining1{color: black;
-  position: absolute;
-  left: 47.5%;
-  top:52.5%;
 }
-.cities1 {position: absolute;
-  top:56%;
-  left: 29%;
+.cities1 {
   color: darkgray;
 }
 .name{
-  position: absolute;
-  top:58%;
-  left: 47%;
   color: darkgray; 
 }
 
 .title1 {
   color:white;
   position: absolute;
-  top: 69%;
+  top: 78%;
   left: 32%;
   width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -137,7 +116,7 @@ ul li a {
 .state1 {
   color:white;
   position: absolute;
-  top: 72%;
+  top: 81%;
   left: 33%;
   width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -145,7 +124,7 @@ ul li a {
 .title2 {
   color: white;
   position: absolute;
-  top: 69%;
+  top: 78%;
   left: 46%;
   width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -153,7 +132,7 @@ ul li a {
 .state2 {
   color: white;
   position: absolute;
-  top: 72%;
+  top: 81%;
   left: 47%;
   width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -161,7 +140,7 @@ ul li a {
 .title3 {
   color: white;
   position: absolute;
-  top: 69%;
+  top: 78%;
   left: 61%;
   width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -169,7 +148,7 @@ ul li a {
 .state3 {
   color: white;
   position: absolute;
-  top: 72%;
+  top: 81%;
   left: 62%;
   width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -177,7 +156,7 @@ ul li a {
 .title4 {
   color: white;
   position: absolute;
-  top: 88.5%;
+  top: 98%;
   left: 32%;
   width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -185,7 +164,7 @@ ul li a {
 .state4 {
   color: white;
   position: absolute;
-  top: 91.5%;
+  top: 101%;
   left: 32.5%;
   width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -193,7 +172,7 @@ ul li a {
 .title5 {
   color: white;
   position: absolute;
-  top: 88.5%;
+  top: 98%;
   left: 46%;
   width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -201,7 +180,7 @@ ul li a {
 .state5 {
   color: white;
   position: absolute;
-  top: 91.5%;
+  top: 101%;
   left: 48%;
   width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -209,7 +188,7 @@ ul li a {
 .title6 {
   color: white;
   position: absolute;
-  top: 88.5%;
+  top: 98%;
   left: 62%;
 width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -217,7 +196,7 @@ width: 20%;
 .state6 {
   color: white;
   position: absolute;
-  top: 91.5%;
+  top: 101%;
   left: 62%;
 width: 20%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -233,15 +212,6 @@ width: 20%;
   left: 42%;
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.city::after {
-  content: "";
-  height: 2px;
-  width: 40%;
-  background-color: gray;
-  position: absolute;
-  left: 32%;
-  top: 110%;
 }
 .lining2{color: black;
   position: absolute;
@@ -323,21 +293,6 @@ table {
   }
 .us_ship {
   background-color: mintcream;
-}
-.card {
-  width: 19.6%;
-  background-color: mintcream;
-  color: darkgray;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.card-header { 
-  background-color: mintcream;
-  border-color: gainsboro;
-  color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.card-body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .sign {
   background-color: indigo;
@@ -588,8 +543,5 @@ table {
 }
 .sell2 .h4{
     color: white;    
-}
-.row{
-    display: flex;  
 }
 
