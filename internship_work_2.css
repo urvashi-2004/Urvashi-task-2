@@ -87,15 +87,6 @@ ul li a {
   color: black;
   font-size: 25PX;
 }
-/* .cities::after {
-  content: "";
-  height: 2px;
-  width: 35%;
-  background-color:silver;
-  position: absolute;
-  left: 35%;
-  top: 105%;
-} */
 .lining1{color: black;
 }
 .cities1 {
@@ -213,11 +204,6 @@ width: 20%;
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.lining2{color: black;
-  position: absolute;
-  left: 49.4%;
-  top:122.7%;
-}
 .city1 {
   text-align: center;
   color: darkgray;
@@ -263,125 +249,76 @@ table {
 .shipes1 {
   background-color: mintcream;
 }
-.ads {font-size: 27px;
-  position: absolute;
-  top: 175%;
-  left: 42%;
-    color: black;
-    background-color: white;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-  .ads::after {
-      content: "";
-      height: 2px;
-      width: 40%;
-      background-color: gray;
-      position: absolute;
-      left: 36%;
-      top: 105%;
-    }
-    .lining3{
-      position: absolute;
-      left: 49%;
-      top:180%;
-    }
-  .adss{
-    text-align: center;
-    color: darkgray;
-    background-color: white;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-.us_ship {
-  background-color: mintcream;
-}
-.sign {
-  background-color: indigo;
-  width: 35px;
-  height: 35px;
-  color: white;
-  position: absolute;
-  left: -95%;
-  top: -20%;
-  border-radius: 50px;
-}
-.sign .bi {
-  color: white;
-}
-.sign1 {
-  background-color: indigo;
-  width: 35px;
-  height: 35px;
-  color: white;
-  position: absolute;
-  left: -43%;
-  top: -20%;
-  padding-left: 10px;
-  border-radius: 50px;
-}
-.sign1 .bi {
-  color: white;
-}
-.sign2 {
-  background-color: indigo;
-  width: 35px;
-  height: 35px;
-  color: white;
-  position: absolute;
-  left: -95%;
-  top: -20%;
-  padding-left: 10px;
-  border-radius: 50px;
-}
-.sign2 .bi {
-  color: white;
-}
-.sell {
-  background-color: indigo;
-  width: 150px;
-  height: 30px;
-  color: white;
-  position: absolute;
-  left: 28.9%;
-  top: 208.6%;
-  text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.sell .h4 {
-  color: white;
-}
-.sell1 {
-  background-color: indigo;
-  width: 205px;
-  height: 30px;
-  color: white;
-  position: absolute;
-  left: 46.4%;
-  top: 208.6%;
-  text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.sell1 .h4 {
-  color: white;
-}
-.sell2 {
-  background-color: indigo;
-  width: 150px;
-  height: 30px;
-  color: white;
-  position: absolute;
-  left: 71.1%;
-  top: 208.6%;
-  text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.sell2 .h4 {
-  color: white;
-}
-
 .empty_div2 {
   width: 100%;
-  height: 170px;
+  height: 150px;
   background-color:white;
+}
+.play{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 14%;
+    top: 217%;
+}
+.play .bi{
+  background: indigo;
+  border-radius: 25px;
+  border: 5px solid indigo;
+}
+.back{
+    color: white;
+    position: absolute;
+    left: 27.5%;
+    top: 217.5%;
+    background-color: indigo;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+}
+.play1{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  left: 39%;
+  top: 217%;
+}
+.play1 .bi{
+background: indigo;
+border-radius: 25px;
+border: 5px solid indigo;
+}
+.back1{
+  color: white;
+  position: absolute;
+  left: 49.8%;
+  top: 217.5%;
+  background-color: indigo;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+}
+.play2{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  left: 64%;
+  top: 217%;
+}
+.play2 .bi{
+background: indigo;
+border-radius: 25px;
+border: 5px solid indigo;
+}
+.back2{
+  color: white;
+  position: absolute;
+  left: 79.5%;
+  top: 217.5%;
+  background-color: indigo;
+  width: 110px;
+  height: 30px;
+  text-align: center;
 }
 .truck {
   color: white;
@@ -394,14 +331,14 @@ table {
 .trucks {
   color: white;
   background-color: transparent;
-  left: 19.6%;
+  left: 19%;
   top: 284%;
   position: absolute;
 }
-.trucks1 {
+.trucks1 {font-size: 20px;
   color: white;
   background-color: transparent;
-  left: 18.7%;
+  left: 18%;
   top: 288.5%;
   position: absolute;
 }
@@ -409,7 +346,7 @@ table {
   color: white;
   background-color: transparent;
   left: 40%;
-  top: 275.5%;
+  top: 275.8%;
   position: absolute;
   font-size: 35px;
 }
@@ -420,10 +357,10 @@ table {
   top: 284%;
   position: absolute;
 }
-.dealers1 {
+.dealers1 {font-size: 20px;
   color: white;
   background-color: transparent;
-  left: 37.8%;
+  left: 37.5%;
   top: 288.5%;
   position: absolute;
 }
@@ -432,7 +369,7 @@ table {
   color: white;
   position: absolute;
   left: 60%;
-  top: 275.5%;
+  top: 275.8%;
   font-size: 35px;
 }
 .hearts {
@@ -442,10 +379,10 @@ table {
   top: 284%;
   position: absolute;
 }
-.hearts1 {
+.hearts1 {font-size: 20px;
   color: white;
   background-color: transparent;
-  left: 58.6%;
+  left: 58%;
   top: 288.5%;
   position: absolute;
 }
@@ -460,72 +397,60 @@ table {
 .globes {
   color: white;
   background-color: transparent;
-  left: 80.4%;
+  left: 80.2%;
   top: 284%;
   position: absolute;
 }
-.globes1 {
+.globes1 {font-size: 20px;
   color: white;
   background-color: transparent;
-  left: 78.5%;
+  left: 78%;
   top: 288.5%;
   position: absolute;
 }
 .blog {font-size: 27px;
   position: absolute;
-  top: 302%;
-  left: 42%;
+  top: 305%;
+  text-align: center;
     color: black;
     background-color: white;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
-  .blog::after {
-    content: "";
-    height: 2px;
-    width: 40%;
-    background-color: gray;
-    position: absolute;
-    left: 36%;
-    top: 99%;
-  }
-  .lining4{
-    color: black;
-    position: absolute;
-    left: 47.5%;
-    top:306.4%;
-      }
+
   .blogs {position: absolute;
-    top:310%;
-    left: 29%;
+    top:315%;
+
     text-align: center;
     color: darkgray; 
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
-  .name1{
-      position: absolute;
-      top:312.5%;
-      left: 47%;
-      color:gray;
-    }
+.lining2{
+  position: absolute;
+  top:310%;
+text-align: center;
+}
+
   .race {
     background-color: mintcream;
   }
   .write1{
-  width: 19.7%;
+  width: 27.4%;
   height: 9%;
-  left: 19.1%;
-  top: 336.6%;
+  left:7.85%;
+  top: 350%;
   position: absolute;
   background-color: mintcream;
   border: 1px solid green;
   margin-bottom: 50px;
   transition: 0.3s;
-  border-color: gainsboro;
-  color: darkgray;
+  border-color: darkgrey;
+  color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .writes1{
-    top: 40%;
+   
+    left: 9.2%;
+    top: 353.5%;
     position: absolute;
     color: black;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -533,15 +458,295 @@ table {
   .man1{
     color: black;
     background-color: transparent;
-    left: 105%;
-  bottom: 110%;
+    font-size: 30px;
     position: absolute;
-    left: 71.7%;
-    top: 95.7%;
+    left: 31%;
+    top: 347%;
+}
+  .write2{
+  width: 27.4%;
+  height: 9%;
+  left:36.3%;
+  top: 350%;
+  position: absolute;
+  background-color: mintcream;
+  border: 1px solid green;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  border-color: darkgrey;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .writes2{
+   
+    left: 37.5%;
+    top: 353.5%;
+    position: absolute;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .man2{
+    color: black;
+    background-color: transparent;
+    position: absolute;
+    left: 60%;
+    top: 347%;
+    font-size: 30px;
+}
+.write3{
+  width: 27.4%;
+  height: 9%;
+  left:64.75%;
+  top: 350%;
+  position: absolute;
+  background-color: mintcream;
+  border: 1px solid green;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  border-color: darkgrey;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .writes3{
+   
+    left: 66%;
+    top: 353.5%;
+    position: absolute;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .man3{
+    color: black;
+    background-color: transparent;
+    position: absolute;
+    left: 87%;
+    top: 347%;
+    font-size: 30px;
+  }
+  .empty_div3 {
+    width: 100%;
+    height: 250px;
+    background-color:whitesmoke;
+  }
+  .choose{
+    left:7.85%;
+    top: 372%;
+    position: absolute;
+  }
+  .our{
+    left:7.85%;
+    top: 376%;
+    position: absolute;
+  }
+  .image{
+    left:35%;
+    top: 363%;
+    position: absolute;
+  }
+  .empty_div4 {
+    width: 100%;
+    height: 330px;
+    background-color:white; }
+.spot{
+  font-size: 40px;
+  position: absolute;
+  left:7.85%;
+  top: 400%;
+}
+.lorem{
+  position: absolute;
+  left:7.85%;
+  top: 408%;
+}
+.app{
+  position: absolute;
+  left:7.5%;
+  top: 419%;
+}
+.us{
+  position: absolute;
+  left:35%;
+  top: 402%;
+}
+.icon1{
+  list-style: none;
+  padding-top: 15px;
+  display: inline-flex;
+  position: absolute;
+  top: 406%;
+  left: 36%;
+  transform: translate(-50%);
+  color: blue; 
+}
+.icon1 .bi{
+  font-size:29px;
+  line-height: 15px;
+  text-align: left;
+  text-decoration: none;
+  margin: 0px 8px;
+  background: white;
+  width: 28.5px;
+  height: 30x;
+  border-radius: 15px;
+  border: 0px solid white;
+}
+.facebook{
+  position: absolute;
+  top: 408.5%;
+  left: 38%;
+}
+.icon2{
+  list-style: none;
+  padding-top: 15px;
+  display: inline-flex;
+  position: absolute;
+  top: 412%;
+  left: 36%;
+  transform: translate(-50%);
+  color: white; 
+}
+.icon2 .bi{
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  text-decoration: none;
+  margin: 0px 8px;
+  background: darkblue;
+  width: 29px;
+  height: 29px;
+  border-radius: 15px;
+  border: 8px solid darkblue;
+}
+.twitter{
+  position: absolute;
+  top: 414.5%;
+  left: 38%;
+}
+.icon3{
+  list-style: none;
+  padding-top: 15px;
+  display: inline-flex;
+  position: absolute;
+  top: 418%;
+  left: 36%;
+  transform: translate(-50%);
+  color: #0072b1; 
+}
+.icon3 .bi{
+  font-size: 24px;
+  line-height: 15px;
+  text-align: left;
+  text-decoration: none;
+  margin: 0px 8px;
+  background: white;
+  width: 23px;
+  height: 23px;
+  border-radius: 10px;
+  border: 0px solid white;
+}
+.linkedin{
+  position: absolute;
+  top: 420%;
+  left: 38%;
+}
+.icon4{
+  list-style: none;
+  padding-top: 15px;
+  display: inline-flex;
+  position: absolute;
+  top: 423.5%;
+  left: 36%;
+  transform: translate(-50%);
+  color: white; 
+}
+.icon4 .bi{
+  font-size: 10px;
+  line-height: 15px;
+  text-align: left;
+  text-decoration: none;
+  margin: 0px 8px;
+  background: red;
+  width: 27px;
+  height: 27px;
+  border-radius: 15px;
+  border: 6px solid red;
+}
+.add{
+  position: absolute;
+  top: 425.9%;
+  left: 36.2%;
+  color:white;
+}
+.google{
+  position: absolute;
+  top: 425.5%;
+  left: 38%;
+}
+.quick{
+  position: absolute;
+  left:50%;
+  top: 402%;
+}
+.link1{
+  position: absolute;
+  left:50%;
+  top: 409%;
+}
+.link2{
+  position: absolute;
+  left:50%;
+  top: 415%;
+}
+.link3{
+  position: absolute;
+  left:50%;
+  top: 420.5%;
+}
+.link4{
+  position: absolute;
+  left:50%;
+  top: 426%;
+}
+.signup{
+  position: absolute;
+  left:65%;
+  top: 402%;
+}
+.send{
+  position: absolute;
+  left:65%;
+  top: 407%;
+}
+.sending{
+  position: absolute;
+  left:65%;
+  top: 414%;
+}
+.snd{
+  width: 320px;
+  height: 40px;
+  background-color: mintcream;
+  border: 0px solid white;
+}
+button{
+  position: absolute;
+  left:74%;
+  width: 23%;
+  top: -0.5%;
+  height: 40px;
+  border: 0px solid indigo;
+  font-size: 15px;
+  color: white;
+  background-color: indigo;
+}
+.scroll{
+  position: absolute;
+  left:100%;
+  top: 110%;
+  background-color: indigo;
+  width:30px;
+  height: 30px;
+  color: aliceblue;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
-.sell2 .h4{
-    color: white;    
-}
-
